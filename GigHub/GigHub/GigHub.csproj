@@ -211,6 +211,10 @@
     <Compile Include="Migrations\201703281608533_PopulateGenreTable.Designer.cs">
       <DependentUpon>201703281608533_PopulateGenreTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703290247592_AddForgeinKey.cs" />
+    <Compile Include="Migrations\201703290247592_AddForgeinKey.Designer.cs">
+      <DependentUpon>201703290247592_AddForgeinKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -310,6 +314,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703281608533_PopulateGenreTable.resx">
       <DependentUpon>201703281608533_PopulateGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703290247592_AddForgeinKey.resx">
+      <DependentUpon>201703290247592_AddForgeinKey.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
