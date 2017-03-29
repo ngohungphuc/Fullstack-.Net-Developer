@@ -215,6 +215,10 @@
     <Compile Include="Migrations\201703290247592_AddForgeinKey.Designer.cs">
       <DependentUpon>201703290247592_AddForgeinKey.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703291402069_AddNameToApplicationUser.cs" />
+    <Compile Include="Migrations\201703291402069_AddNameToApplicationUser.Designer.cs">
+      <DependentUpon>201703291402069_AddNameToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -319,6 +323,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703290247592_AddForgeinKey.resx">
       <DependentUpon>201703290247592_AddForgeinKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703291402069_AddNameToApplicationUser.resx">
+      <DependentUpon>201703291402069_AddNameToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
