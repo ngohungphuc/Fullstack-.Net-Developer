@@ -1,8 +1,8 @@
-﻿@model GigHub.ViewModel.HomeViewModel
+﻿@model GigHub.ViewModel.GigsViewModel
 @{
     ViewBag.Title = "Home Page";
 }
-
+<h1>@Model.Heading</h1>
 <ul class="gigs">
     @foreach (var gig in Model.UpcomingGigs)
     {
