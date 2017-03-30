@@ -55,9 +55,10 @@ h6,
 
 .form-control {
     font-size: 17px;
-    padding: 20px 15px;
+    padding: 8px 10px;
     -ms-border-radius: 9px;
     border-radius: 9px;
+    height: 40px;
 }
 
     .form-control:focus {
@@ -67,10 +68,9 @@ h6,
     }
 
 .btn {
-    /*font-size: 17px;
-    -ms-border-radius: 9px;*/
+    /*font-size: 17px;padding: 7px 20px;*/
+    -ms-border-radius: 9px;
     border-radius: 9px;
-    padding: 7px 20px;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
