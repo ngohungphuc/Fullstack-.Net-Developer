@@ -199,9 +199,14 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\AttendancesController.cs" />
+    <Compile Include="Controllers\Api\GigController.cs" />
+    <Compile Include="Controllers\Api\AttendancesController.cs" />
     <Compile Include="Controllers\FolloweesController.cs" />
-    <Compile Include="Controllers\FollowingsController.cs" />
+    <Compile Include="Controllers\Api\FollowingsController.cs" />
+    <Compile Include="Migrations\201704100725281_AddIsCancledToGig.cs" />
+    <Compile Include="Migrations\201704100725281_AddIsCancledToGig.Designer.cs">
+      <DependentUpon>201704100725281_AddIsCancledToGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\GigsViewModel.cs" />
     <Compile Include="DTO\AttendancesDto.cs" />
     <Compile Include="Controllers\GigsController.cs" />
@@ -274,6 +279,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -366,6 +372,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703300716313_AddFollowing.resx">
       <DependentUpon>201703300716313_AddFollowing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704100725281_AddIsCancledToGig.resx">
+      <DependentUpon>201704100725281_AddIsCancledToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

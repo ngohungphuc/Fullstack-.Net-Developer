@@ -35,6 +35,8 @@ namespace GigHub.ViewModel
             get
             {
                 //call anoynomous method
+                //c => c.Update(this) return action result
+                //GigsController is an input of anoynomous method
                 Expression<Func<GigsController, ActionResult>> update = (c => c.Update(this));
                 Expression<Func<GigsController, ActionResult>> create = (c => c.Create(this));
                 var action = (Id != 0) ? update : create;
