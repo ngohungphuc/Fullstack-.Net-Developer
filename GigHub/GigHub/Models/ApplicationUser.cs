@@ -40,12 +40,7 @@ namespace GigHub.Models
         /// <param name="notification"></param>
         public void Notify(Notification notification)
         {
-            var userNotification = new UserNotification
-            {
-                User = this,
-                Notification = notification
-            };
-            UserNotifications.Add(userNotification);
+            UserNotifications.Add(new UserNotification(this, notification));
         }
     }
 }
