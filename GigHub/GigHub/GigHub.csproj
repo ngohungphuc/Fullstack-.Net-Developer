@@ -211,6 +211,10 @@
     <Compile Include="Migrations\201704101458045_AddNotification.Designer.cs">
       <DependentUpon>201704101458045_AddNotification.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704110808106_NewUpdateDB.cs" />
+    <Compile Include="Migrations\201704110808106_NewUpdateDB.Designer.cs">
+      <DependentUpon>201704110808106_NewUpdateDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Notification.cs" />
     <Compile Include="Models\NotificationType.cs" />
     <Compile Include="Models\UserNotification.cs" />
@@ -385,6 +389,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201704101458045_AddNotification.resx">
       <DependentUpon>201704101458045_AddNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704110808106_NewUpdateDB.resx">
+      <DependentUpon>201704110808106_NewUpdateDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
